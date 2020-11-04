@@ -1,0 +1,10 @@
+# Acceso mediante Clave pública
+
+Para acceder a nuestra máquina mediante nuestra clave pública tendremos que utilizar el siguiente comando:
+
+`ssh -i ~/.ssh/are883_openstack.pem ubuntu@192.168.66.193`
+
+Un ejemplo de ello podría ser el siguiente:
+
+`ssh -i ~/.ssh/are883_openstack.pem ubuntu@192.168.66.193`
+
