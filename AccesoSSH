@@ -8,3 +8,13 @@ Un ejemplo de ello podría ser el siguiente:
 
 `ssh -i ~/.ssh/are883_openstack.pem ubuntu@192.168.66.193`
 
+Para arreglar el siguiente error:
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Utilizar las siguientes líneas de código:
+
+sudo chmod 600 ~/.ssh/are883_openstack
+sudo chmod 600 ~/.ssh/are883_openstack.pem
